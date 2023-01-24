@@ -14,22 +14,34 @@
             padding: 8px 15px;
             border-radius: 5px;
         }
-  /*       .banner{
-            background-image: url(images/Rectangle\ 4.png);
+         /* .bg-img{ */
+            /* background-image: url(images/Rectangle\ 4.png); */
+            
+        /* }  */
+ /*       .banner-image{
             width: 1100px;
             height: 550px;
             margin-top: 40px;
             border-radius: 3px;
-        } */
+        }
+        @media only screen and (max-width: 688px) {
+          .banner-image{
+            width: 50%;
+            height: 50%;
+          }
+         } */
             
     </style>
 </head>
 <body class="container-fluid">
-    <!-- Header section -->
+
+    <!--------------- Header section -------------->
     <header class="">
-        <!-- header menu section -->        
+
+        <!------------- header menu section ---------------->  
+
   <div class="container-lg mt-3">
-        <nav class="navbar navbar-expand-lg mx-auto d-md-block bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg mx-auto d-md-block ">
   <div class="container-fluid">
     <img src="images/Group 2.png" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +71,8 @@
   Free Consultation
 </button>
 
-<!-- Modal -->
+<!------------- Modal --------------->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -81,22 +94,28 @@
   </div>
 </nav>
 </div>
-<!-- banner section -->
+<!------------------- banner section -------------------->
            
-            <div class="mt-5 container-lg">
-              <img class="img-fluid" src="images/Rectangle 4.png" alt=""> 
-              <div class="text-dark">
-                  <h1>We Provide Effective<br> Legal Solutions</h1>
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour.</p>
+            <div class="mt-5 container-lg"> 
+              <div class="">
+                <img class="img-fluid position-relative" src="images/Rectangle 4.png" alt="">
+                <div class="text-white font-semibold text-center position-absolute top-50">
+                <h2 class="">We Provide Effective Legal Solutions</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour.</p>
+            <form class="d-flex justify-center" role="search">
+        <input class="form-control me-2 w-50" type="search" placeholder="Search your services" aria-label="Search">
+        <button class="btn-new" type="submit">Search</button>
+      </form>
+      </div>
               </div>
-          </div>
+            </div>        
 
     </header>
 
     <!-- Main section -->
     <main>
 
-        <!-- card section -->
+        <!---------------- card section ------------------>
 
         <div class="container-lg mt-5 text-center">
             <h2>The Legal Practice Area</h2>
@@ -172,8 +191,9 @@
 </div>
         </div>
 
-        <!-- slide section -->
-        <div class="container-lg mt-5 text-center">
+        <!------------------ slide section ------------------>
+
+        <div class="container-lg mt-5 mb-5 text-center">
             <h3>What Our Client Say</h3>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have<br> suffered alteration in some form, by injected humour.</p>
 
@@ -229,7 +249,8 @@ College in Virginia, looked up one of the more obscure Latin words, consectetur.
 </div>
         </div>
 
-        <!-- question section -->
+        <!------------------- question section ---------------------->
+
         <div class="container lg mt-5">
           <div class="text-center">
           <h2>Frequently Asked Any Questions</h2>
@@ -249,7 +270,7 @@ College in Virginia, looked up one of the more obscure Latin words, consectetur.
       <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
     </div>
   </div>
-  <div class="accordion-item mt-3">
+  <div class="accordion-item mt-5">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
         What is the purpose of media query?
@@ -259,7 +280,7 @@ College in Virginia, looked up one of the more obscure Latin words, consectetur.
       <div class="accordion-body">Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.</div>
     </div>
   </div>
-  <div class="accordion-item mt-3">
+  <div class="accordion-item mt-5">
     <h2 class="accordion-header" id="flush-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
         What is css box model and How does it work?
@@ -269,7 +290,7 @@ College in Virginia, looked up one of the more obscure Latin words, consectetur.
       <div class="accordion-body">A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.</div>
     </div>
   </div>
-  <div class="accordion-item mt-3 mb-3">
+  <div class="accordion-item mt-5 mb-5">
     <h2 class="accordion-header" id="flush-headingFour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
         What is semantic tag?
@@ -289,7 +310,7 @@ College in Virginia, looked up one of the more obscure Latin words, consectetur.
 
     </main>
 
-    <!-- Footer section -->
+    <!-------------------- Footer section ------------------->
     <footer>
       <div class="container-lg mt-5">
 
